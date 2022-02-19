@@ -1,0 +1,111 @@
+/* Navbar */
+nav {
+  display: flex;
+  background: #f4f3f3;
+  height: 7vh;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+}
+
+nav div.left-side {
+  padding-left: 90px;
+}
+
+nav div.right-side {
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul li a.list-active {
+  color: #ec4d37;
+  font-weight: 700;
+}
+
+nav .right-side a {
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: #ec4d37;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* card */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  border-radius: 4px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+.social-media {
+  text-decoration: none;
+}
+
+/* contact.html > form */
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form {
+  width: 350px;
+  padding-top: 20px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 4px 20px;
+  border-radius: 8px;
+  font-size: medium;
+  cursor: pointer;
+  border: 1px solid rgb(146, 145, 145);
+  color: white;
+  background-color: black;
+}
+
+.get-in-touch {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+/* project.html > form */
+.add-project-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.date-form {
+  display: flex;
+}

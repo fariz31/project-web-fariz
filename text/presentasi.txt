@@ -1,0 +1,21 @@
+
+            Presentasi Fariz Hidayaht - Task Week 3 Day 9,10,11,12
+
+
+1. Styling with Bootstrap (index.hbs - localhost:5001/home)
+
+2. Card My Project  
+
+3. Menu My Project -> Add My Project
+
+4. Show All Routing
+
+5. Show data input with alert() using POST Method
+
+6. Show     1. Add Data Project             4. Update Data Project  (X)
+            2. Fetch Data Project           5. Delete Data Project
+            3. Fetch Data Detail Project
+            
+7. Show database table content
+
+8. Show data project fetch function

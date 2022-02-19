@@ -1,0 +1,13 @@
+app.get('/project', function (req, res) {
+        console.log(projects)
+        
+
+    let dataProjects = projects.map( function(data){
+        return {
+            ...data,
+            isLogin: isLogin
+        }
+    })
+
+    res.render('project', {isLogin: isLogin, projects: dataProjects})
+})

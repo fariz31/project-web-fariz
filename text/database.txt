@@ -1,0 +1,32 @@
+app.get('/project', function (req, res) {
+    let query = 'SELECT * FROM tb_projects'
+
+    db.connect(function (err, client, done) {
+        if (err) throw err
+        client.query(query, function (err, result) {
+            done()
+
+            if (err) throw err
+            let data = result.rows
+
+            data = data.map((project) => {
+                return {
+                    ...project,
+                    isLogin: isLogin
+                }
+            })
+
+            res.render('project', {
+                isLogin: isLogin,
+                projects: data
+            })
+        })
+    })
+})
+
+ let dataProjects = projects.map( function(data){
+        return {
+            ...data,
+            isLogin: isLogin
+        }
+    })
